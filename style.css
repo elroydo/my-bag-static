@@ -1,0 +1,238 @@
+*{ /*everything*/
+    width: 100%; /*sets the width to 100% to fit the entire contents of the browser*/
+    margin: 0px auto; /*aligns elements to the center*/
+    padding: 0px; /*padding is set*/
+}
+
+html{ /*html element*/
+    width: 100%; /*sets the width to 100% to fit the entire contents of the browser*/
+    font-family: "Trebuchet MS", Calibri; /*font family of text is set*/
+    min-height: 100%; /*sets the minimum height for the html element*/
+    position: relative; /*the element is positioned relative to its normal position*/
+}
+
+header{ /*header element*/
+    width: 100%; /*sets the width to 100% to fit the entire contents of the browser*/
+    background-color: #262626; /*background colour is set*/
+}
+
+#compname{ /*ID element named compname*/
+    width: 300px; /*width is set*/
+    color: white; /*text colour is set*/
+    font-family: Onyx; /*font family is set*/
+    font-size: 100px; /*font size is set*/
+    margin-left: 100px; /*margin to the left is set*/
+    display: inline; /*displays the element as an inline element*/
+}
+
+#compdesc{ /*ID element named compdesc*/
+    color: white; /*text colour is set*/
+    font-family: Onyx; /*font family is set*/
+    display: inline; /*displays the element as an inline element*/
+}
+
+#main_nav{ /*ID element named main_nav*/
+    width: 100%; /*sets the width to 100% to fit the entire contents of the parent element*/
+    background-color: #404040; /*background colour is set*/
+    text-align: center; /*text is set to align in the center*/
+    font-size: 12px; /*font size is set*/
+}
+
+#ul_main{ /*ID element named ul_main*/
+    margin: 0 auto; /*aligns elements to the center*/
+    padding: 10px 0px; /*padding is set*/
+    list-style-type: none; /*no marker is shown for the navigation text*/
+	overflow: hidden; /*hides the content of an element if it overflows*/
+}
+
+#ul_main li{ /*ID element named ul_main; li is selected*/
+	display: inline; /*displays the element as an inline element*/
+}
+
+.nav_links{ /*class element named nav_links*/
+    margin: 0px; /*margin is set*/
+    padding: 10px 20px; /*padding is set*/
+    text-decoration: none; /*removes the decoration added to the text*/
+	color: white; /*text colour is set*/
+}
+
+.nav_links:hover{ /*when the mouse moves over the navigation links*/
+	background-color: lightcoral; /*background colour is set*/
+    transition: background-color 0.5s; /*smoothly changes the background colour*/
+}
+
+#banner{ /*ID element named banner*/
+    width: 100%; /*sets the width to 100% to fit the entire contents of the parent element*/
+    border-bottom: 1px solid #E3E3E3; /*a border to the bottom is added*/
+    padding: 10px 0px 10px 0px; /*padding is set*/
+    background: lightgrey url("images/banner/banner.png") no-repeat center; /*background colour and image are set; the image will be centered and not repeat*/
+    background-size: 700px; /*background size is set*/
+}
+
+.banner_text{ /*class element named banner_text*/
+    color: white; /*text colour is set*/
+    text-align: center; /*text is set to align in the center*/
+    font-style: italic; /*font is stylised as italic*/
+}
+
+.banner_text span{ /*class element named banner_text; span of the contents is selected*/
+    background: #ff4949; /*background colour is set*/
+    padding: 5px 10px 5px 10px; /*padding is set*/
+}
+
+main{ /*main element*/
+	width: 1000px; /*width is set*/
+}
+
+#slideshow{ /*ID element named slideshow*/
+    width: 1000px; /*width is set*/
+    height: 315px; /*height is set*/
+    margin-top: 40px; /*margin to the top is set*/
+    margin-bottom: 40px; /*margin to the bottom is set*/
+}
+
+.slide{ /*class element named slide*/
+    animation:opac 0.8s; /*animates the images to fade in and out at 0.8s intervals using @keyframes*/
+}
+
+#video{ /*ID element named video*/
+    width: 490px; /*width is set*/
+    height: 270px; /*height is set*/
+    box-shadow: 0px 0px 0px 1px #E3E3E3; /*box shadow is set*/
+	font-size: 0; /*font size is set*/
+    float: left; /*element is specified to float to the left*/
+}
+
+#social	{ /*ID element named social*/
+    width: 490px; /*width is set*/
+    height: 270px; /*height is set*/
+    box-shadow: 0px 0px 0px 1px #E3E3E3; /*box shadow is set*/
+    float: right; /*element is specified to float to the right*/
+}
+
+#availability{ /*ID element named availability*/
+    width: 200px; /*width is set*/
+    margin-top: 40px;
+    color: grey; /*text colour is set*/
+    text-align: center; /*text is set to align in the center*/
+    font-size: 11px; /*font size is set*/
+}
+
+.products{ /*class element named products*/
+    text-align: center; /*text is set to align in the center*/
+}
+
+.prod_box{ /*class element named prod_box*/
+    width: 200px; /*width is set*/
+    margin: 40px 5px 40px 5px; /*margin is set*/
+    border-radius: 2px; /*the radius of the border corners is set*/
+    text-align: center; /*text is set to align in the center*/
+    display: inline-block; /*displays the element as an inline block container element*/
+}
+
+.homebox{ /*class element named homebox*/
+    width: 200px; /*width is set*/
+    height: 250px; /*height is set*/
+}
+
+#pursesimg{ /*ID element named pursesimg*/
+    background: #e7e7e7 url("images/products/purses/product2.png") center; /*background colour is set*/
+    background-size: 100px; /*background size is set*/
+}
+
+#handbagsimg{ /*ID element named handbagsimg*/
+    background: #e7e7e7 url("images/products/handbags/product1.png") center; /*background colour is set*/
+    background-size: 100px; /*background size is set*/
+}
+
+#bagsimg{ /*ID element named bagsimg*/
+    background: #e7e7e7 url("images/products/bags/product1.png") center; /*background colour is set*/
+    background-size: 100px; /*background size is set*/
+}
+
+.button{ /*class element named button*/
+    padding-top: 120px; /*padding to the top is set*/
+}
+
+.button a{ /*class element named button; a is selected*/
+    padding: 10px 30px; /*padding is set*/
+    text-decoration: none;
+    background: white; /*background colour is set*/
+    color: black; /*text colour is set*/
+}
+
+.button a:hover{ /*when the mouse moves over the button link*/
+    background: black; /*background colour is set*/
+    color: white; /*text colour is set*/
+    transition: background-color 0.5s, color 0.05s; /*smoothly changes the background and text colours*/
+}
+
+.prod_img{ /*class element named prod_img*/
+    background: #e7e7e7 radial-gradient(ellipse farthest-corner at center, #FFFFFF 0%, #DBDBDB 150%); /*background colour is set*/
+    width: 200px; /*width is set*/
+    padding: 20px 0px 20px 0px; /*padding is set*/
+    margin-bottom: 10px; /*margin to the bottom is set*/
+}
+
+.prod_title{ /*class element named prod_title*/
+    width: 200px; /*width is set*/
+    height: 60px; /*height is set*/
+    font-size: 12px; /*font size is set*/
+    text-decoration: underline; /*adds the underline decoration to text*/
+    text-align: left; /*text is set to align to the left*/
+}
+
+.prod_price{ /*class element named prod_price*/
+    width: 200px; /*width is set*/
+    text-decoration: none; /*removes the decoration added to the text*/
+    font-family: sans-serif; /*font family is set*/
+    text-align: left; /*text is set to align to the left*/
+    color: crimson; /*text colour is set*/
+}
+
+.contact{ /*class element named contact*/
+    width: 100%; /*sets the width to 100% to fit the entire contents of the parent element*/
+    margin-top: 40px; /*margin to the top is set*/
+    margin-bottom: 40px; /*margin to the bottom is set*/
+    padding: 20px 0px; /*padding is set*/
+    text-align: center; /*text is set to align in the center*/
+    background: #f2f2f2; /*background colour is set*/
+    
+}
+
+.contact textarea, input{ /*class element named contact; the inpputs and text area are slected*/
+    width: 90%; /*sets the width to 90% from the contents of the parent element*/
+    padding: 1%; /*padding is set*/
+    border: 1px solid lightgrey; /*removes the border*/
+    box-sizing: border-box; /*specifies the height and width should be calculated according to the border of the elements*/
+    resize: none; /*prevents the user from changing the size of the text area*/
+}
+
+.contact p{ /*class element named contact; p is selcted*/
+    color: grey; /*text colour is set*/
+    line-height: 1.5; /*line height of text is set*/
+}
+
+footer{ /*footer element*/
+    width: 100%; /*sets the width to 100% to fit the entire contents of the parent element*/
+    padding: 5px 0px; /*padding is set*/
+    bottom: 0; /*specifies vertical position of the element to the bottom*/
+    position: absolute; /*the element is positioned relative to its first positioned ancestor element*/
+    background-color: #262626; /*background colour is set*/
+    color: white; /*text colour is set*/
+    text-align: center; /*text is set to align in the center*/
+    font-size: 14px; /*font size is set*/
+}
+
+iframe{ /*selects the inline frame elements*/
+    border: none; /*removes the border*/
+}
+
+@keyframes opac{ /*specifies animation code for opac*/
+    0%{
+        opacity: 0; /*0% equals 0.0 opacity*/
+    }
+    100%{
+        opacity: 1; /*100% equals 1.0 opacity*/
+    }
+}

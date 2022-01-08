@@ -1,0 +1,65 @@
+<!DOCTYPE html><!--document type is declared as HTMl-->
+
+<html><!--open container-->
+	<head><!--open container-->
+		<title>My Bag | Women's Bags</title><!--page name-->
+		
+		<meta charset="utf-8" /><!-- meta-tags-->
+		
+		<link rel="stylesheet" type="text/css" href="style.css" /><!-- style sheet links-->
+	</head><!--close container-->
+    <body><!--open container-->
+         <header><!--open container-->
+            <h1 id="compname">MY BAG</h1><!--header ID identifying the logo/title-->
+            <h2 id="compdesc">| Women's bags</h2><!--header ID identifying the description-->
+        </header><!--close container-->
+        <nav id="main_nav"><!--main navigation bar container -->
+            <ul id="ul_main"><!--navigation bar links container -->
+                <li><a class="nav_links" title="Home" href="index.html">Home</a></li><!--navigation links-->
+                <li><a class="nav_links" title="Purses" href="purses.html">Purses</a></li><!--navigation links-->
+                <li><a class="nav_links" title="Handbags" href="handbags.html">Handbags</a></li><!--navigation links-->
+                <li><a class="nav_links" title="Bags" href="bags.html">Bags</a></li><!--navigation links-->
+                <li><a class="nav_links" title="Contact us" href="contact.html">Contact us</a></li><!--navigation links-->
+            </ul><!--close container-->
+        </nav><!--close container-->
+        <div id="banner"><!--div ID identifying the banner element-->
+            <h2 class="banner_text"><span>HOME</span></h2><!--header class identifying the text in the banner-->
+            <h4 class="banner_text"><span>Accessorise yourself</span></h4><!--header class identifying the text in the banner-->
+        </div><!--close container-->
+        <main><!--open container-->
+            <div id="container"><!--open ID container div-->
+                <div class="contact"><!--open class contact div-->
+                    <h3>Question?</h3><!--header text-->
+                    <br><!--line break-->
+					<form action="mailto:mb@business.com" method="post" name="signup" onsubmit="return checkData()"><!--open from container, run jscript function, and send feedback to business email-->
+						<input name="name" type="text" placeholder="*Name" id="NAME"><!--name input-->
+						<br><br><!--line breaks-->
+						<input name="email" type="email" placeholder="*Email Address" id="EMAIL"><!--email input-->
+						<br><br><!--line breaks-->
+						<textarea name="comments" rows="7" placeholder="*Query" id="MESSAGE"></textarea><!--input for feedback form message-->
+						<br><br><!--line breaks-->
+						<input type="submit" value="Submit"><!--submit button-->
+					</form><!--close container-->
+                    <script src="js/feedback.js"></script><!--link feedback form external javascript code-->
+                </div><!--close container-->
+                <div class="contact">
+                    <h3>Ways to contact us</h3><!--header text-->
+                    <br><!--line break-->
+					<p>01895 123 1234</p><!--text-->
+					<p>info@MB.com</p><!--text-->
+					<p>123 Rockwell Road</p><!--text-->
+                    <p>London, Ealing</p><!--text-->
+                    <p>NW9 7UE</p><!--text-->
+                </div><!--close container-->
+                <div class="contact">
+                    <h3>Visit us</h3><!--header text-->
+                    <br><!--line break-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d39704.95301591594!2d-0.44618435000000006!3d51.53963765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1512405182077" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe><!--embedded Google Maps location of business-->
+                </div><!--close container-->
+            </div><!--close container-->
+        </main><!--close container-->
+        <footer><!--open container-->
+            <p>Copyright &copy; My Bag 2018</p><!--footer text-->
+        </footer>
+    </body><!--close container-->
+</html><!--close container-->
